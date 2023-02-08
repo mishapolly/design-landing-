@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.root {
+    overflow: hidden;
+}
+
+/* BUTTONS  */
+.order-btn {
+    background: #5551F7;
+    padding: 10px 15px;
+    color: #FAFAFA;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.classic-btn {
+    background: #FAFAFA;
+    border: 1px solid #5551F7;
+    color: #5551F7;
+    padding: 9px 15px;
+    outline: none;
+    font-weight: 400;
+}
+
+.form__btn {
+    color: #FAFAFA;
+    background: #FF5F68;
+    outline: none;
+    border: none;
+    padding: 15px 55px;
+}
+/*BUTTONS END*/
+
+.header {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.body__header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1C1D28;
+}
+
+/* NUMBER STYLE*/
+.number{
+    font-size: 150px;
+    color: #FAFAFA;
+    text-shadow: #5551F7 1px 0 10px;
+    /*-webkit-text-stroke: 1px #5551F7;*/
+    line-height: 145%;
+}
+
+/* WORK EXAMPLE SECTION */
+.work__header {
+    font-weight: 500;
+    font-size: 30px;
+
+}
+/* WORK EXAMPLE SECTION */
+
+/* PRICE SECTION*/
+.price__header {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.price__body {
+    border: 1px solid #E4E4E4;
+}
+
+.category__list {
+    list-style-image: url("/assets/checked_status.png");
+}
+
+.category-right__list {
+    list-style-image: url("/assets/line.png");
+}
+
+
+.right_list {
+    border-left: 1px solid #E4E4E4;
+}
+
+.price__title {
+    color: #E4E4E4;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.price {
+   font-size: 30px;
+   font-weight: 700;
+   color: #1C1D28;
+   line-height: 44px;
+}
+/* PRICE SECTION*/
+
+/* PRICE CARDS SECTION*/
+.cards {
+    border: 1px solid #E4E4E4;
+}
+
+.card__header {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card__standart {
+    font-size: 15px;
+    font-weight: 400;
+    border: 3px solid #5551F7;
+}
+/* PRICE CARDS SECTION*/
+
+/* WORK ADVANTAGES SECTION*/
+.advantages__header {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.pic__about {
+    font-weight: 400;
+    font-size: 15px;
+}
+/* WORK ADVANTAGES SECTION*/
+
+/*MAKE REQUEST*/
+.make__request {
+    background: #5551F7;
+    padding: 50px;
+}
+
+.request__header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.request__underheader {
+    font-weight: 400;
+    color: #FAFAFA;
+    font-size: 15px;
+}
+
+label {
+    color: #FAFAFA;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+input::placeholder {
+    color: #FAFAFA;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+}
+/*MAKE REQUEST*/
+
+/* FOOTER SECTION */
+footer {
+    background: #1C1D28;
+    padding: 30px;
+    color: #FAFAFA;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__list > li {
+    font-weight: 200;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.confidence__info {
+    font-size: 12px;
+    opacity: 0.3;
+}
+/* FOOTER SECTION */
+
+
+/* OTHER*/
+.photo__gap {
+    margin-top: 80px;
+}
+
+.advantage__gap {
+    margin-top: 150px;
+}
+
+.pics__gap {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.gapper {
+    margin-top: 150px;
+}
+
+input[type=checkbox]{
+    background: #5551F7!important;
+    border: 1px solid #FAFAFA;
+    opacity: 0.7;
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+input[type=checkbox]:checked{
+    background-color: #FAFAFA;
+    color: #FAFAFA;
+}
+/* OTHER*/
